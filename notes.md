@@ -18,7 +18,7 @@
 
 4. **Connect via SSH**  
    ```bash
-   ssh root@
+   ssh root@x.x.x.x
    ```
 
 ## 2. Installing Java on the Droplet
@@ -41,13 +41,13 @@ apt install openjdk-8-jre-headless
 
 2. **Transfer the Application JAR to the Droplet**  
    ```bash
-   scp build/libs/java-react-example.jar root@:/root
+   scp build/libs/java-react-example.jar root@x.x.x.x:/root
    ```
 
 3. **Run the Application on the Droplet**  
    SSH into the server:  
    ```bash
-   ssh root@
+   ssh root@x.x.x.x
    java -jar java-react-example.jar
    ```
 
@@ -113,7 +113,7 @@ apt install openjdk-8-jre-headless
 
 5. **SSH using the new user**  
    ```bash
-   ssh montassar@
+   ssh montassar@x.x.x.x
    ```
 
 ### PS
